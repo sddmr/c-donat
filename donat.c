@@ -19,8 +19,8 @@ int main() {
         memset(b, 32, 1760);
         memset(z, 0, 7040);
         
-        for(j = 0; j < 6.28; j += 0.07) { // Phi: 0 to 2π
-            for(i = 0; i < 6.28; i += 0.02) { // Theta: 0 to 2π
+        for(j = 0; j < 6.28; j += 0.07) { 
+            for(i = 0; i < 6.28; i += 0.02) { 
                 float c = sin(i);
                 float d = cos(j);
                 float e = sin(A);
